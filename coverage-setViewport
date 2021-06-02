@@ -4,21 +4,8 @@ const fs = require("fs");
 
 // the configs you want to test
 const configs = [
-	{url: 'http://steam.test/motorbike-blog/'},
-	{url: 'http://steam.test/motorbike-blog/category/motorcycle-magazine-articles/adventure-bike-rider/'},
-	{url: 'http://steam.test/motorbike-blog/2021/05/duplicate-nip/'},
-	{url: 'http://steam.test/clients/'},
-	{url: 'http://steam.test/clients/first-class-19/'},
-	{url: 'http://steam.test/scenario/accident-abroad/'},
-	{url: 'http://steam.test/meet-the-team/'},
-	{url: 'http://steam.test/meet-the-team/robert-dransfield/'},
-	{url: 'http://steam.test/faqs/'},
-	{url: 'http://steam.test/faqs/benefits-and-compensation-faq/'},
-	{url: 'http://steam.test/faq-categories/case-law/'},
-	{url: 'http://steam.test/?s=test'},
-	{url: 'http://steam.test/'},
-	{url: 'http://steam.test/about-us'},
-	{url: 'http://steam.test/contact-us/'},
+  {url: 'http://steam.test/index.html'},
+  {url: 'http://steam.test/index2.html',},
 ];
 
 (async () => {
